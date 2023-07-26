@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "NodeNext",
+        "outDir": "./dist",
+        "esModuleInterop": true
+    
+    }
+}

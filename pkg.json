@@ -1,0 +1,4 @@
+{
+  "targets": ["node18-linux", "node18-win", "node18-mac"],
+  "assets": "dist/data/*"
+}
