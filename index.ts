@@ -102,7 +102,7 @@ async function readDebitorData(
     const parzelle = row.getCell(1).value;
     const are = +row.getCell(8).value;
     const isVorstand: boolean = row.getCell(12).value === "J";
-    const language: swissqr.types.Languages = rowLang === "FR" ? "FR" : "DE";
+    const language: swissqr.types.Languages = rowLang.trim() === "F" ? "FR" : "DE";
 
     debtorDatas.push({
       parzelle,

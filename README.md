@@ -14,11 +14,13 @@ Node mit npm installiert mit mindestens Version 18 siehe [node.js Downloads](htt
 #### Struktur im Excel **mitgliederliste.xlsx**
 Damit die Daten korrekt aus dem Excel gelesen werden können müssen die folgenden Reiter mit extakt dem angegebenen Namen vorhanden sein
 
+> Ein Beispiel Excel mit der geforderten Struktur ist im Ordner [_example_data_](./example_data/mitgliederliste.xlsx) hinterlegt.
+
 ##### _Mitgliederliste_
 Die folgende Tabelle Zeigt die Mindestandorderung an das Tabellenblatt _Mitgliederliste_. Wichtig ist vor allem die Reihenfolge.
-|Parz.	        | Name | Vorname | Adresse | PLZ | Ort | Tel. | Aa | Spr. | Vorstand |
-|----------|------|---------|---------|--------|-----|------------|-----------|-----------|----------|		
-|Parzellen nummer|Name als text|Vorname als Text|Strasse und Hausnummer|Postleitzahl|Ortschaftsnamen|Telefon (wird nicht benötigt)|Anzahl Aren als Zahlenwert|Sprache D oder F|'J' falls Mitglied Vorstansmitglied ist ansonsten leer|	
+|Parz.	        | Name | Vorname | Adresse | PLZ | Ort | Tel. | Aa | | |Spr. | Vorstand |
+|----------|------|---------|---------|--------|-----|------------|-----------|--- |---|-----------|----------|		
+|Parzellen nummer|Name als text|Vorname als Text|Strasse und Hausnummer|Postleitzahl|Ortschaftsnamen|Telefon (wird nicht benötigt)|Anzahl Aren als Zahlenwert|Leere Spalte|Leere Spalte|Sprache 'D' oder 'F' |'J' falls Mitglied Vorstansmitglied ist ansonsten leer|	
 
 ##### _pachtzins_
 Diese Tabelle _muss_ explizit so ausgefüllt werden

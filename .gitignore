@@ -1,5 +1,7 @@
 data/
-dist/
+dist/*.js
+dist/main*
+!dist/data
 node_modules/
 main-*
 busse.ts
